@@ -9,6 +9,8 @@ try:
     import plotly.express as px
     import plotly.offline as pyo
     import plotly.graph_objects as go
+    pyo.plot(fig, filename='grafico.html')
+
 
 
 except ModuleNotFoundError:  # pragma: no cover - optional dependency fallback
