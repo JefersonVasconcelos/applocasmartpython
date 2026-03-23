@@ -7,6 +7,10 @@ import pandas as pd
 
 try:
     import plotly.express as px
+    import plotly.offline as pyo
+    import plotly.graph_objects as go
+
+
 except ModuleNotFoundError:  # pragma: no cover - optional dependency fallback
     px = None
 
